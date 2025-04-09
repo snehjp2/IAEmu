@@ -7,7 +7,7 @@
 
 ## IAEmu
 
-This code supplements the expirements conducted in xxxx.xxxx, IAEmu: Learning Galaxy Intrinsic Alignment Correlations. We develop a neural network based emulator that predicts galaxy intrinsic alignment statistics (position-position, position-orientation, and orientation-orientation correlation functions) from an underlying HOD from [Halotools](https://github.com/astropy/halotools)-IA. The model weights and dataset can all be found on our Zenodo page. 
+This code supplements the expirements conducted in [2504.05235](https://arxiv.org/abs/2504.05235), IAEmu: Learning Galaxy Intrinsic Alignment Correlations. We develop a neural network based emulator that predicts galaxy intrinsic alignment statistics (position-position, position-orientation, and orientation-orientation correlation functions) from an underlying HOD from [Halotools](https://github.com/astropy/halotools)-IA. The model weights and dataset can all be found on our Zenodo page. 
 
 IAEmu features an embedding network coupled with three 1D convolutional decoders. It was trained under a multi-task learning framework for a mean-variance estimation task. IAEmu is also structured to output epistemic uncertainties via Monte Carlo Dropout. The overall design of the architecture and its training procedure is designed to predict correlation functions of varying magnitudes and signal-to-noise.
 
